@@ -1,2 +1,2 @@
-# bootstrap-project-1
+# bootstrap-project-2
 responsive bootstrap theme
