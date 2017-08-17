@@ -448,6 +448,55 @@ body {
 /* end price options */
 
 
+/* start testimonials  */
+
+.testimonials {
+    padding: 60px;
+    background-color: #fff;
+}
+
+.testimonials .testimonials-head {
+    font-weight: bold;
+    font-size: 35px;
+    color: #666;
+}
+
+.testimonials .testimonials-desc {
+    color: #888;
+    margin-bottom: 60px;
+}
+
+.testimonials .customer-wrapper p {
+    background-color: #f9f9f9;
+    padding: 30px 15px;
+    text-align: left;
+    margin-bottom: 30px;
+    color: #888;
+}
+
+.testimonials .customer-wrapper .customer-img {
+    float: left;
+}
+
+.testimonials .customer-wrapper .customer-info {
+    text-align: left;
+    float: left;
+    margin-bottom: 60px;
+    margin-left: 15px;
+}
+
+.testimonials .customer-wrapper .customer-info h3 {
+    font-weight: bold;
+}
+
+.testimonials .customer-wrapper .customer-info span {
+    color: #999;
+}
+
+
+/* end testimonials  */
+
+
 /* framework */
 
 .uppercase {
