@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/introjs.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -52,16 +53,16 @@
     <!--start header    -->
     <div class="header">
         <div class="overlay">
-            <div class="container">
+            <div class="container" data-hint='welcome!'>
                 <div class="row vh">
                     <div class="col-md-6 col-sm-6">
                         <h1 class="uppercase">ax<span>IT</span></h1>
                         <p class="lead uppercase">Lorem ipsum dolor sit amet consectetur adipisicing</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia qui tempore, labore beatae quidem aperiam, nostrum eos excepturi deleniti ipsum odio omnis accusantium! Ipsa earum eaque ipsum corporis, fugit porro.</p>
-                        <button type="button" class="btn btn-default download-btn">Download</button>
+                        <button type="button" data-intro='Download axit from here' class="btn btn-default download-btn">Download</button>
                     </div>
                     <div class="col-md-6 col-sm-6">
-                        <form class="center-block">
+                        <form class="center-block" data-intro='sign up to get started'>
                             <h2 class="text-center">Lorem ipsum <span>dolor</span> sit amet</h2>
                             <input class="form-control" type="text" placeholder="name">
                             <input class="form-control" type="text" placeholder="email">
@@ -83,7 +84,7 @@
                     <h4>Social Media</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est harum nesciunt dolore numquam </p>
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8" data-intro='Follow us on social media'>
                     <i class="fa fa-facebook fa-3x fa-fw"></i>
                     <i class="fa fa-twitter fa-3x fa-fw"></i>
                     <i class="fa fa-google-plus fa-3x fa-fw"></i>
@@ -100,7 +101,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-2">
-                    <ul class="list-unstyled tab-switch text-center">
+                    <ul class="list-unstyled tab-switch text-center" data-intro='select any service from here'>
                         <li class="selected" data-class="tab-one">tab 1</li>
                         <li data-class="tab-two">tab 2</li>
                         <li data-class="tab-three">tab 3</li>
@@ -116,7 +117,7 @@
                         <div class="tab-two">
                             <h3>Lorem ipsum <span>two</span></h3>
                             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur inventore ipsum aliquid obcaecati accusamus animi similique sit voluptas quod dolores quas, eveniet tenetur debitis minus adipisci delectus non aspernatur iure..</p>
-                            <button class="btn btn-lg">download</button>
+                            <button type="button" class="btn btn-lg">download</button>
                         </div>
                         <div class="tab-three">
                             <h3>Lorem ipsum <span>three</span></h3>
@@ -189,7 +190,7 @@
 
     <!-- start this is awesome  -->
     <div class="awesome text-center">
-        <div class="container">
+        <div class="container" data-intro='see our features'>
             <h2 class="h1 awesome-head head-border-center uppercase">
                 why this is awesome
             </h2>
@@ -224,7 +225,7 @@
     <!-- end this is awesome  -->
     <!-- start price section  -->
     <div class="price-options text-center">
-        <div class="container">
+        <div class="container" data-intro='choose your plan'>
             <h2 class="h1 price-options-head head-border-center uppercase">
                 pricing options
             </h2>
@@ -325,7 +326,7 @@
             <p class="testimonials-desc">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
             <div class="row">
                 <div class="col-md-4">
-                    <div class="customer-wrapper center-block">
+                    <div class="customer-wrapper center-block" data-intro='see what our customers are saying here'>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos soluta cupiditate, porro, ipsa eius aspernatur ut at aliquam enim quae, cumque distinctio minima. Voluptatem tempora cumque nulla distinctio, quod debitis.</p>
                         <div class="customer-img">
                             <img src="img/90x90.jpg" alt="customer" class="img-responsive img-circle pull-left img-thumbnail">
@@ -389,7 +390,7 @@
                     stylish axure design
                 </h2>
                 <p class="stylish-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit natus, omnis saepe.</p>
-                <button type="button" class="btn btn-default download-btn">Download</button>
+                <button type="button" data-intro='download it now!' class="btn btn-default download-btn">Download</button>
             </div>
             <!-- end container  -->
         </div>
@@ -400,7 +401,7 @@
     <!-- end stylish  -->
     <!-- start contact us  -->
     <div class="contact-us text-center">
-        <div class="container">
+        <div class="container" data-intro='for more information contact us'>
             <h2 class="h1 contact-us-head head-border-center uppercase">
                 contact us
             </h2>
@@ -438,6 +439,7 @@
     <script src="js/jquery-1.12.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/intro.js"></script>
 </body>
 
 </html>
